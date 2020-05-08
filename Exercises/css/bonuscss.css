@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    color: #000000;
+}
+header {
+    display: grid;
+    background-color: blue;
+    text-align: center;
+}
+h1 {
+    color: #FFFFFF;
+    font-family: serif;
+    font-weight: normal;
+}
+h2 {
+    font-family: serif;
+}
+.gridcontainer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+}
+.left {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: grid;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+.right {
+    background-image: url("../images/oranges.jpg");
+    display: grid;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: antiquewhite;
+}
+.gridcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.bottom-left {
+    display: grid;
+    align-items: center;
+    background-color: lightblue;
+    padding: 25px;
+}
+.center {
+    display: grid;
+    background-image: url("../images/red.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: chartreuse;
+    align-items: center;
+}
+.bottom-right {
+    display: grid;
+    background-color: lightblue;
+    padding: 25px;
+}
+img {
+    float: right;
+    height: 200px;
+    padding: 0px 0px 15px 15px;
+}

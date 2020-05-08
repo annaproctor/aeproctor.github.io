@@ -1,0 +1,23 @@
+body {
+            font-family: Arial;
+            background-color: #E4EFF6;
+}
+hr {
+    color: #2980B9;
+}
+h1 {
+    color: #FFFFFF;
+    background-color: #2980B9;
+    padding: 20px;
+}
+h2 {
+    color: #15405C;
+    padding-left: 20px;
+}
+p {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+ul {
+    padding-left: 60px;    
+}

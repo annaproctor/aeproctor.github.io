@@ -1,0 +1,248 @@
+body {
+    width: 1536px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.5pt;
+}
+.gridwrapper {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+main {
+    display: grid;
+    background-color: #F5F5DC;
+    padding-bottom: 100px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #414D3E;
+    padding: 0px 150px 0px 250px;
+    margin-top: 25px;
+}
+p {
+    padding: 0px 150px 0px 275px;
+    line-height: 17pt;
+    margin: 5px;
+}
+ul {
+    padding: 0px 150px 0px 310px;
+    line-height: 17pt;
+}
+ol {
+    padding: 0px 150px 0px 310px;
+    line-height: 20pt;
+}
+.byline {
+    text-align: right;
+}
+a {
+    color: #1A8310;
+    text-decoration: none;
+}
+a:hover {
+    color: #22AF16;
+    text-decoration: underline;
+}
+
+
+/* 2020 EVENTS */
+
+aside {
+    background-color: #DCDCDC;
+}
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 9.5pt;
+}
+th {
+    padding: 7px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #808080;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1.5px;
+    width: 50%;
+    font-size: 11pt;
+}
+th.title {
+    background-color: #808080;
+    font-size: 15pt;
+}
+td {
+    padding: 20px 10px 20px 10px;
+    border-top: 1px solid #808080;
+    height: 40px;
+}
+.event {
+    text-align: center;
+}
+.date {
+    text-align: center;
+}
+table a {
+    color: #ffffff;
+}
+table a:hover {
+    color: #ffffff;
+}
+
+/* HEADER & NAV BAR */
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #6B8D68;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-end;
+}
+header img {
+    display: inline-grid;
+    padding: 10px 25px 10px 25px;
+    height: 100px;
+}
+
+nav {
+    display: inline-grid;
+    width: 900px;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #6B8D68;
+}
+nav ul {
+    padding: 0px;
+}
+nav li {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: normal;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: normal;
+    padding: 5px;
+}
+nav a:hover {
+    color: #ffffff;
+    background-color: #BC8B8F;
+    text-decoration: none;
+}
+nav a.active {
+    color: #ffffff;
+    background-color: #BC8B8F;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #ffffff;
+}
+
+/* HOME */
+
+.home {
+    display: grid;
+    grid-auto-rows: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+.hero-image {
+    display: grid;
+    height: 432px;
+    background-image: url(images/hero-original.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.home h1 {
+    color: #ffffff;
+    font-size: 35pt;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    text-shadow: 3px 3px 5px #414D3E;
+    padding-top: 100px
+}
+.home p {
+    padding-left: 100px;
+}
+
+/* ABOUT US */
+
+.about img {
+    height: 200px;
+    float: left;
+    padding: 0px 25px 25px 0px;
+}
+
+/* COMING EVENTS */
+
+.coming-events h3 {
+    padding-left: 275px;
+}
+.coming-events p {
+    padding-left: 300px;
+}
+
+/* MARCIA THOMAS HOUSE */
+
+.house {
+    float: left;
+    width: 350px;
+    padding: 0px 25px 10px 0px;
+}
+
+/* MEMBERSHIP */
+
+.button {
+    background-color: #BC8B8F;
+    border: 5px solid #BC8B8F;
+    padding: 7px;
+    border-radius: 13px;
+    color: #ffffff;
+}
+.button:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #BC8B8F;
+}
+.application {
+    margin-bottom: 35px;
+}
+
+/* CONTACT */
+
+.contact h3 {
+    padding-left: 275px;
+}
+.contact p {
+    padding-left: 300px;
+}
+
+/* FOOTER */
+
+footer {
+    display: grid;
+    background-color: #6B8D68;
+    color: #ffffff;
+    font-size: 9.5pt;
+    padding: 15px;
+    text-align: center;
+}
+footer p {
+    margin-bottom: 0pt;
+    margin-top: 0pt;
+    align-items: center;
+}
+footer a {
+    color: #ffffff;
+}
+footer a:hover {
+    color: #ffffff;
+}

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    background-color: #F4F6F7;
+}
+hr {
+    color: #2980B9;
+}
+h1 {
+    color: #FFFFFF;
+    background-color: #FF5733;
+    padding: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'Fondamento', cursive;
+}
+h2 {
+    color: #15405C;
+    padding-left: 20px;
+}
+p {
+    padding-left: 30px;
+    padding-right: 20px;
+    line-height: 1.6em;
+    font-family: "Courier New", Courier, monospace;
+}
+ul {
+    padding-left: 60px;    
+}
+a:link {
+    color: #FF5733;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFAB99;
+}
+
+a:hover {
+    color: #33DBFF;
+    text-decoration: underline;
+    }
+}
+a:active {
+    color: #135260;
+}

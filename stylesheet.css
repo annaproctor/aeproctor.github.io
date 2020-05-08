@@ -1,0 +1,222 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 1250px;
+    margin: auto;
+    background-color: #ECF0F1;
+}
+main {
+    display: grid;
+    width: 1250px;
+    min-height: 673px;
+    background-color: #FDFEFE;
+    align-content: center;
+    text-align: center;
+    background-image: url("images/branches.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section {
+    background-color: #ECF0F1;
+    width: 900px;
+    padding: 30px;
+    margin: auto;
+}
+ul {
+    line-height: 1.5em;
+}
+a {
+    color: #F1948A;
+    text-decoration: none;
+}
+a:visited {
+    color: #AA8783;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    background-color: #F1948A;
+    color: #FDFEFE;
+    text-align: center;
+    font-size: 35pt;
+}
+h2 {
+    margin: auto;
+}
+p {
+    margin: auto;
+    line-height: 1.5em;
+}
+
+/* HEADER */
+
+header {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FDFEFE;
+    padding: 15px 0px 15px 15px;
+    align-content: center;
+    align-items: baseline;
+    height: 50px;
+    width: 1235px;
+}
+header a {
+    display: inline-grid;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20pt;
+    color: #7B7D7D;
+    width: auto;
+    text-align: left;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: none;
+}
+header a:visited {
+    text-decoration: none;
+    color: #7B7D7D;
+}
+
+/* NAV BAR */
+
+nav {
+    display: inline-grid;
+    text-align: right;
+    float: right;
+    height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 2.5px 10px 2.5px 10px;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-weight: normal;
+    padding: 2.5px 10px 2.5px 10px;
+}
+nav a {
+    text-decoration: none;
+    background-color: #FDFEFE;
+    color: #7B7D7D;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: normal;
+    padding: 2.5px 10px 2.5px 10px;
+}
+nav a:hover {
+    background-color: #7B7D7D;
+    color: #FDFEFE;
+    text-decoration: none;
+    font-size: 12pt;
+    padding: 2.5px 10px 2.5px 10px;
+}
+
+/* HOME PAGE */
+
+.homemain h1 {
+    width: 12%;
+    margin: auto;
+}
+.homemain p {
+    text-align: left;
+    letter-spacing: 0.01em;
+}
+
+/* ABOUT PAGE */
+
+.aboutmain {
+    display: grid;
+    text-align: left;
+    height: 850px;
+}
+.aboutmain h1 {
+    text-align: center;
+    width: 13%;
+    margin-left: 11.5%;
+}
+.aboutmain h2 {
+    padding-left: 30px;
+}
+.aboutmain p {
+    padding: 30px;
+}
+.aboutmain img {
+    height: 250px;
+    float: left;
+    border: #F1948A solid 10px;
+    margin: 0px 25px 18px 0px;
+}
+
+/* RESUME PAGE */
+
+.resumemain {
+    display: grid;
+    text-align: left;
+    height: 1550px;
+}
+.resumemain h1 {
+    text-align: center;
+    width: 17%;
+    margin-left: 11.65%;
+}
+table {
+    width: 100%;
+}
+.right-align {
+    text-align: right;
+}
+
+/* PORTFOLIO PAGE */
+
+.portfoliomain {
+    display: grid;
+    text-align: left;
+    height: 1000px;
+}
+.portfoliomain h1 {
+    text-align: center;
+    width: 17%;
+    margin-left: 11.65%;
+}
+.portfoliomain h2 {
+    font-size: 14pt;
+}
+.portfoliomain p {
+    padding-left: 20px;
+}
+.portfoliomain a {
+    color: #FDFEFE;
+}
+.button:link {
+    background-color: #FDFEFE;
+    color: #F1948A;
+    padding: 10px;
+    border: 5px solid #F1948A;
+    border-radius: 15px;
+}
+.button:visited {
+    background-color: #FDFEFE;
+    color: #F1948A;
+    border-color: #F1948A;
+}
+.button:hover {
+    background-color: #F1948A;
+    color: #FDFEFE;
+}
+
+/* CONTACT PAGE */
+
+.contactmain {
+    display: grid;
+    text-align: left;
+}
+.contactmain h1 {
+    text-align: center;
+    width: 16%;
+    margin-left: 11.65%;
+}
+.contactmain a {
+    font-weight: bolder;
+}
