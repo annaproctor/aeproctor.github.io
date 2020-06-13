@@ -173,7 +173,7 @@ table {
 .portfoliomain {
     display: grid;
     text-align: left;
-    height: 1000px;
+    height: 1700px;
 }
 .portfoliomain h1 {
     text-align: center;
@@ -185,9 +185,6 @@ table {
 }
 .portfoliomain p {
     padding-left: 20px;
-}
-.portfoliomain a {
-    color: #FDFEFE;
 }
 .button:link {
     background-color: #FDFEFE;
@@ -219,4 +216,38 @@ table {
 }
 .contactmain a {
     font-weight: bolder;
+}
+
+/* INDESIGN PORTFOLIO PAGE */
+
+.indesignportfoliomain {
+    display: grid;
+    text-align: left;
+}
+.indesignportfoliomain h1 {
+    text-align: center;
+    width: 34%;
+    margin-left: 11.65%;
+}
+.indesignportfoliomain h2 {
+    font-size: 14pt;
+}
+.indesignportfoliomain p {
+    padding-left: 20px;
+}
+.button:link {
+    background-color: #FDFEFE;
+    color: #F1948A;
+    padding: 10px;
+    border: 5px solid #F1948A;
+    border-radius: 15px;
+}
+.button:visited {
+    background-color: #FDFEFE;
+    color: #F1948A;
+    border-color: #F1948A;
+}
+.button:hover {
+    background-color: #F1948A;
+    color: #FDFEFE;
 }
