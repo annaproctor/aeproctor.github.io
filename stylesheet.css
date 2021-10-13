@@ -122,6 +122,11 @@ nav a:hover {
 .homemain p {
     text-align: left;
     letter-spacing: 0.01em;
+    padding: 10px;
+}
+
+.homemain ul {
+    text-align: left;
 }
 
 /* ABOUT PAGE */
@@ -137,16 +142,17 @@ nav a:hover {
     margin-left: 11.5%;
 }
 .aboutmain h2 {
-    padding-left: 30px;
+    padding-left: 0px;
+    padding-bottom: 15px;
 }
 .aboutmain p {
-    padding: 30px;
+    padding-top: 15px;
 }
 .aboutmain img {
     height: 250px;
     float: left;
     border: #F1948A solid 10px;
-    margin: 0px 25px 18px 0px;
+    margin: 0px 25px 5px 0px;
 }
 
 /* RESUME PAGE */
