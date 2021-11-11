@@ -160,7 +160,7 @@ nav a:hover {
 .resumemain {
     display: grid;
     text-align: left;
-    height: 1650px;
+    height: 1350px;
 }
 .resumemain h1 {
     text-align: center;
@@ -179,7 +179,7 @@ table {
 .portfoliomain {
     display: grid;
     text-align: left;
-    height: 1700px;
+    height: 1300px;
 }
 .portfoliomain h1 {
     text-align: center;
@@ -229,6 +229,7 @@ table {
 .indesignportfoliomain {
     display: grid;
     text-align: left;
+    height: 850px;
 }
 .indesignportfoliomain h1 {
     text-align: center;
